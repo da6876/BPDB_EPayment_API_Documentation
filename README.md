@@ -5,7 +5,7 @@
 ## 🌐 Base URL (UAT)
 
 ```
-http://118.67.219.193/epay_api/uat/v1/
+http://192.168.20.21/epay_api/uat/v1/
 ```
 
 ---
