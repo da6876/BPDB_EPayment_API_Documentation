@@ -7,6 +7,8 @@
 ```
 http://192.168.20.21/epay_api/uat/v1/
 ```
+| `API User ID`   | ************ |
+| `API Password`  | ************ |
 
 ---
 
