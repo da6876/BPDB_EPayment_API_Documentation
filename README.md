@@ -36,8 +36,8 @@ Fetch bill information for a specific consumer account and billing cycle.
 | `customer_code`  | string | ✅ Yes   | API User ID |
 | `password`       | string | ✅ Yes   | API Password |
 | `channel_type`   | string | ✅ Yes   | Channel Type (Provided by SRL) |
-| `v`              | string | ✅ Yes   | API Version (`1`) |
-| `format`         | string | ✅ Yes   | Response format (`json`) |
+| `v`              | string | ✅ NO    | API Version (`1`) |
+| `format`         | string | ✅ NO    | Response format (`json`) |
 
 ---
 
@@ -84,8 +84,8 @@ Submit payment for a specific bill.
 | `customer_code`  | string | ✅ Yes   | API User ID |
 | `password`       | string | ✅ Yes   | API Password |
 | `channel_type`   | string | ✅ Yes   | Channel Type |
-| `v`              | string | ✅ Yes   | API Version (`1`) |
-| `format`         | string | ✅ Yes   | Response format (`json`) |
+| `v`              | string | ✅ NO    | API Version (`1`) |
+| `format`         | string | ✅ NO    | Response format (`json`) |
 
 ---
 
@@ -127,8 +127,8 @@ Check the status of a previously submitted payment request.
 | `org_code` | string | ✅ Yes   | Organization Code (`BPDB`) |
 | `acc_num`  | string | ✅ Yes   | Consumer Account Number |
 | `req_id`   | string | ✅ Yes   | Request ID used during payment |
-| `v`        | string | ✅ Yes   | API Version (`1`) |
-| `format`   | string | ✅ Yes   | Response format (`json`) |
+| `v`        | string | ✅ NO    | API Version (`1`) |
+| `format`   | string | ✅ NO    | Response format (`json`) |
 
 ---
 
