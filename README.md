@@ -51,8 +51,8 @@ org_code=BPDB
 &billcycle=202602
 &pc_code=01
 &pc_br_code=100
-&customer_code=Dbbl@Test
-&password=Dbbl@Test1234
+&customer_code=**********
+&password=**********
 &channel_type=1
 &v=1
 &format=json
@@ -96,11 +96,11 @@ POST /Payment_Gateway.php
 
 acc_num=71816715
 &pc_code=01
-&trns_id=BAYAAAAAAAA
+&trns_id=DB3ACASDF
 &req_id=MBP10000000058046
 &pay_date=03/03/2026
-&customer_code=Dbbl@Test
-&password=Dbbl@Test1234
+&customer_code=**********
+&password=**********
 &channel_type=1
 &v=1
 &format=json
